@@ -37,7 +37,7 @@ const GlobalLoading = () => {
           sx={{
             position: "absolute",
             top: "50%",
-            left: "50%",
+            left: { xs: "40%", md: "45%" },
             transform: "translate(-50%, -50%",
           }}
         >
